@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(7, 22, 36, 1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "PPNeueMachina";
+  src: url("/fonts/PPNeueMachina.woff") format("woff");
+}
+
+
+html {
+  scrollbar-color: #212121 #121212;
+  scrollbar-width: thin;
+  letter-spacing: -0.09px;
+}
+
+.PPNeueMachina {
+  font-family: "PPNeueMachina", sans-serif;
+}
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: start;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+img {
+  user-select: none;
+}
+
+::selection {
+  background-color: #fff1;
+}
